@@ -1,0 +1,59 @@
+{
+  "_from": "git+https://github.com/auctifera-josed/starprnt.git",
+  "_id": "cordova-plugin-starprnt@2.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-starprnt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/auctifera-josed/starprnt.git",
+    "rawSpec": "git+https://github.com/auctifera-josed/starprnt.git",
+    "saveSpec": "git+https://github.com/auctifera-josed/starprnt.git",
+    "fetchSpec": "https://github.com/auctifera-josed/starprnt.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/auctifera-josed/starprnt.git#68b04f44fa20b5e50df56277e4bf692899c65aa9",
+  "_spec": "git+https://github.com/auctifera-josed/starprnt.git",
+  "_where": "/Users/mac/Desktop/MobileApps/StarprntDemo-Ionic1",
+  "author": {
+    "name": "Jose Angarita / Ruben Casas"
+  },
+  "bugs": {
+    "url": "https://github.com/auctifera-josed/starprnt/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-starprnt",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "StarPRNT Cordova Plugin for Star Micronics Bluetooth/LAN printers",
+  "homepage": "https://github.com/auctifera-josed/starprnt#readme",
+  "keywords": [
+    "cordova",
+    "startPRNT",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-starprnt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auctifera-josed/starprnt.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "2.1.0"
+}
